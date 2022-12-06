@@ -19,7 +19,7 @@ For this part, we tested several classification models: Logistic Regression, Gra
 
 ##### Quick note : while coding on google colab, the best model was indeed XGBoost, but when transferring the notebook to jupyter notebook and running our code on it, the best model became Gradient Boosting Classifier, even though both models almost have the same accuracy score. This is why on the plot we can clearly see Gradient Boosting Classifier as the most accurate but we chose the XGBoost, we didn't predict this outcome and it came at the last minute, so we didn't have the time to modify the whole API part. Sorry !
 
-### 3 - L'API
+### 3 - API
 
 We used Dash, implementing the following concept: following a questionnaire, the user can estimate his weight index or his risk to suffer from obesity in the future.
 
