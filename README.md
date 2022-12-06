@@ -15,7 +15,9 @@ All this could be visualized by numerous plots (pie plots, histograms,...).
 
 ### 2. Machine Learning
 
-For this part, we tested several classification models: Logistic Regression, Gradient Boosting Classifier, K-Nearest Neighbours, Support Vector Machine, Random Forest and XGBoost. After performing accuracy calculations, we concluded that the best model was GXBoost, which we then implemented in our API. 
+For this part, we tested several classification models: Logistic Regression, Gradient Boosting Classifier, K-Nearest Neighbours, Support Vector Machine, Random Forest and XGBoost. After performing accuracy calculations and plotting the results, we concluded that the best model was XGBoost, which we then implemented in our API.
+
+**Quick note : while coding on google colab, the best model was indeed XGBoost, but when transferring the notebook to jupyter notebook and running our code on it, the best model became Gradient Boosting Classifier, even though both models almost have the same accuracy score. This is why on the plot we can clearly see Gradient Boosting Classifier as the most accurate but we chose the XGBoost, we didn't predict this outcome and it came at the last minute, so we didn't have the time to modify the whole API part. Sorry ! **
 
 ### 3 - L'API
 
@@ -23,4 +25,4 @@ We used Dash, implementing the following concept: following a questionnaire, the
 
 ### 4 - Conclusion
 
-During this project, we were able to use various libraries that we had discovered during the Practical Works of the semester.
+During this project, we were able to use various libraries that we had discovered during the Practical Works of the semester. As we studied our dataset, we could also come to the conclusion that obesity is very much linked to eating habits and physical conditions. 
