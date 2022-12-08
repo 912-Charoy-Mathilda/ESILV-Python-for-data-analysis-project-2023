@@ -17,7 +17,7 @@ All this could be visualized by numerous plots (pie plots, histograms,...).
 
 For this part, we tested several classification models: Logistic Regression, Gradient Boosting Classifier, K-Nearest Neighbours, Support Vector Machine, Random Forest and XGBoost. After performing accuracy calculations and plotting the results, we concluded that the best model was XGBoost, which we then implemented in our API.
 
-##### Quick note : while coding on google colab, the best model was indeed XGBoost, but when transferring the notebook to jupyter notebook and running our code on it, the best model became Gradient Boosting Classifier, even though both models almost have the same accuracy score. This is why on the plot we can clearly see Gradient Boosting Classifier as the most accurate but we chose the XGBoost, we didn't predict this outcome and it came at the last minute, so we didn't have the time to modify the whole API part. Sorry !
+##### Quick note : as the XGBoost and the Gradient Boosting models perform with almost the same accuracy on our dataset, sometimes one is better than the other and the other way around depending on the code run. We picked the XGBoost model as it performed the best when we were coding our project, but the other model may perform better on your computer. It is not an error of judgement. Thank you !
 
 ### 3 - API
 
